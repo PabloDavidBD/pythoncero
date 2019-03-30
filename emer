@@ -1,0 +1,9 @@
+#! /usr/bin/python
+# -*- coding: iso-8859-15 -*-
+numero = int(input("dime un numero: "))
+if numero > 0: 
+    print("El numero introducido es positivo")
+elif numero <0:
+    print("El numero introducido es negativo")
+else: 
+    print("El numero introducido es 0")
